@@ -1,0 +1,99 @@
+
+.weather_info{
+    display: flex;
+    flex-direction: row;
+     
+}
+.weather_pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.weather_info2{
+ margin-left: 70px;
+
+}
+.weather_info2 p{
+ margin-top: -10px;
+}
+
+
+
+
+
+.days{
+display: flex;
+}
+.weather-days{
+    display: flex;
+    flex-direction: column;
+    
+}
+.weather-days p{
+    margin-top: 0px;
+}
+.weather-days div{
+    display: flex;
+    flex-direction: column;
+}
+.weather-days h1{
+   width: 50px;
+}
+
+hr.font1 {
+    border-top: 1px solid grey;
+  }
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 687px) {
+    .days{
+        display: flex;
+        flex-direction: column;
+    }
+    .weather-days{
+        display: flex;
+        flex-direction: row;
+    }
+    .weather-days p{
+        margin-left: 10px;
+    }
+    .weather-days div{
+        display: flex;
+        flex-direction: column;
+    }
+    .weather-days h1{
+       width: 50px;
+       font-size: 10px;
+    }
+    .weather_info2{
+        margin-left: 50px;
+       
+       }
+  
+}
+@media (min-width: 688px) and (max-width: 880px) {
+    .days{
+        display: flex;
+        flex-direction: column;
+    }
+    .weather-days{
+        display: flex;
+        flex-direction: row;
+    }
+    .weather-days p{
+        margin-left: 40px;
+    }
+    .weather-days div{
+        display: flex;
+        flex-direction: column;
+    }
+    .weather-days h1{
+       width: 90px;
+       font-size: 20px;
+    }
+  
+}
+
